@@ -113,5 +113,6 @@ function saveScore() {
     if (currentQuestionIndex >= questions.length || timeLeft === 0) {
       questionElement.textContent = "Game Over!";
       questionContainer.classList.remove("hide");
+      document.getElementById("answer-buttons").classList.add("hide");
     }
   }
