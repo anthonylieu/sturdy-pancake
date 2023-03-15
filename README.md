@@ -8,3 +8,4 @@
 <br>When all questions were answered or the timer reached 0, I made a text notification that game had ended.</br>
 <br>I allowed the user to save ther initials and score once they finished.</br>
 
+![anthonylieu github io_sturdy-pancake_](https://user-images.githubusercontent.com/38957648/225229736-6614c061-4a71-4caf-9531-86abec3899d7.png)
