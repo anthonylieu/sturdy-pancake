@@ -35,6 +35,11 @@ function startQuiz() {
   currentQuestionIndex = 0;
   setNextQuestion();
   timerId = setInterval(updateTimer, 1000);
+  
+  // Refresh the page when the Restart button is clicked
+  startButton.addEventListener("click", function() {
+    location.reload();
+  });
 }
 
 function setNextQuestion() {
