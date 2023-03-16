@@ -9,4 +9,4 @@
 <br>I allowed the user to save their initials and score once they finished.</br>
 <br>https://anthonylieu.github.io/sturdy-pancake/</br>
 
-![anthonylieu github io_sturdy-pancake_](https://user-images.githubusercontent.com/38957648/225229736-6614c061-4a71-4caf-9531-86abec3899d7.png)
+![anthonylieu github io_sturdy-pancake_ (1)](https://user-images.githubusercontent.com/38957648/225745518-a93a07bc-68ba-4cc4-9a6a-8e90a06eb404.png)
