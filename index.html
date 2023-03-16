@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="quiz-container">
+    <div id="quiz-container">
       <h1>Code Quiz</h1>
-      <button id="start-button">Start</button>
+      <button id="start-button" class="button">Start</button>
       <div id="question-container" class="hide">
         <p id="question"></p>
         <div id="answer-buttons">
@@ -17,8 +17,20 @@
           <button class="answer-button"></button>
         </div>
       </div>
-      <div id="timer">Time: <span id="time-left"></span></div>
+      <div id="timer">Time: <span id="timer"></span></div>
       <div id="scoreboard">Score: <span id="score">0</span></div>
+      <div id="score-form" class="hide">
+        <form>
+          <label for="initials">Enter Your Initials:</label>
+          <input type="text" id="initials" name="initials">
+          <button type="submit" id="submit-button">Submit Score</button>
+        </form>
+      </div>
+      <div id="highscores-container" class="hide">
+        <h2>High Scores</h2>
+        <div id="highscores-list"></div>
+        <button id="clear-highscores">Clear High Scores</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

@@ -1,21 +1,45 @@
-.quiz-container {
+#quiz-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    }
-    
-    #timer {
+}
+
+#timer {
     font-size: 24px;
     margin-top: 16px;
-    }
-    
-    #scoreboard {
+}
+
+#scoreboard {
     font-size: 24px;
     margin-top: 16px;
-    }
-    
-    .hide {
+}
+
+.hide {
     display: none;
-    }
+}
+
+#highscores-list {
+    list-style: none;
+    padding: 0;
+}
+
+#clear-highscores {
+    margin-top: 16px;
+}
+
+.button {
+    background-color: #351c75;
+    color: white;
+  }
+
+.answer-button {
+    background-color: #351c75;
+    color: white;
+  }
+
+.button:hover,
+.answer-button:hover {
+  background-color: #ad69ce;
+}
